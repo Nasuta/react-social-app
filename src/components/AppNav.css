@@ -1,0 +1,48 @@
+.mainNav ul {
+  display: inline-block;
+  padding: 0;
+  
+
+}
+
+.mainNav ul li {
+  display: inline-block;
+  padding: 15px;
+
+  text-decoration: none;
+}
+
+.mainNav ul li a {
+  text-decoration: none;
+
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.mainNav ul li a:hover {
+  opacity: 0.7;
+}
+
+.MenuBarButton {
+  display: none;
+}
+
+li button.logout {
+  
+  
+  border: none;
+  background-color: white;
+  font-size: 25px;
+  font-weight: 300;
+  /* -webkit-appearance: none;
+  -webkit-appearance: button; */
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav ul li a,
+  li button.logout
+  {
+      display: inline-block;
+      font-size: 19px;
+  }
+}

@@ -1,0 +1,31 @@
+.addPostForm {
+    
+    max-width: 627px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: right;
+
+}
+
+.addPostForm  textarea {
+    width: 98%;
+    padding: 5px;
+    height: 130px;
+    resize: vertical;
+}
+
+.addPostForm textarea:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 750px) {
+    .addPostForm {
+        max-width: 65%;
+    }
+    .addPostForm  textarea {
+        max-width: 97%; 
+        
+    }
+  }

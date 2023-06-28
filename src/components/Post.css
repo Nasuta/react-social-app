@@ -1,0 +1,110 @@
+/* div {
+    flex-wrap: wrap;
+    max-width: 80%;
+} */
+
+.post {
+    display: flex;
+    border: 1px solid black;
+    margin: 5px 5px;
+    border-radius: 5px;
+  
+
+}
+
+.post > * {
+    padding: 5px;
+    
+}
+
+.post .avatar img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post .postData {
+    width: 100%;
+ 
+
+}
+
+.post .postData .postMeta {
+display: flex;
+padding: 5px;
+justify-content: space-between;
+
+}
+
+.post .postData .postMeta .author {
+    font-weight: 500;
+}
+.post .postData .postMeta .date {
+    font-weight: 500;
+}
+
+.post .postData .postContent {
+    text-align: left;
+    padding: 5px;
+    text-align: justify;
+}
+.post .likes {
+    text-align: right;
+}
+.deleteConfirmation {
+    position: fixed;
+    background-color:white;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+.deleteConfirmation .yes {
+    padding: 7px 24px;
+    margin: 10px 10px;
+
+}
+
+.deleteConfirmation .no {
+    background-color: rgb(51, 149, 59);
+    padding: 7px 28px;
+    margin: 10px 10px;
+    
+}
+
+.btn.delete {
+    background-color:white;
+    margin: 10px 20px;
+    padding: 2px 7px;
+    margin-left: -12px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    
+   
+}
+
+
+
+button.likesBtn {
+    background-color:white;
+    margin: 10px 20px;
+    padding: 2px 7px;
+    margin-left: -12px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button.unfollowBtn {
+    background-color:white;
+    margin: 10px 20px;
+    padding: 2px 7px;
+    margin-left: -12px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+

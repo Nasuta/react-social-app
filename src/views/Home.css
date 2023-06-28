@@ -1,0 +1,16 @@
+.postList {
+    max-width: 650px;
+    margin: auto;
+}
+
+ .loadMore {
+    margin: 30px 0;
+}
+
+
+@media screen and (max-width: 750px) {
+    .postList  {
+        max-width: 70%;
+    }
+   
+  }
